@@ -5,7 +5,7 @@
 //  Created by Wechat on 12-2-28.
 //  Copyright (c) 2012年 Tencent. All rights reserved.
 //
-
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
 /*! @brief 错误码

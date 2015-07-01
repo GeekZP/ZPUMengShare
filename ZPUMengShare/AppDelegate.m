@@ -5,7 +5,7 @@
 //  Created by 郑鹏 on 15/6/29.
 //  Copyright (c) 2015年 zhengpeng. All rights reserved.
 //
-
+#import "AppDelegate+Share.h"
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self registerShareAction];
     return YES;
 }
 

@@ -8,6 +8,36 @@
 
 #import "ZPSharePackage.h"
 
-@implementation ZPSharePackage
+@interface ZPSharePackage ()<UMSocialUIDelegate>
 
 @end
+
+@implementation ZPSharePackage
+
++ (void)shareToSocialPlatform:(id)PlatformName WithTitle:(NSString *)text andImage:(id)image andUrl:(NSString *)url showOn:(UIViewController *)viewController
+{
+    if ([PlatformName isEqualToString:UMShareToSina]) {
+        //        __weak id weakSelf = viewController;
+        [[UMSocialControllerService defaultControllerService] setShareText:text shareImage:image socialUIDelegate:(id)viewController];
+        [UMSocialSnsPlatformManager getSocialPlatformWithName:UMShareToSina].snsClickHandler(viewController,[UMSocialControllerService defaultControllerService],YES);
+    }
+    else
+    {
+        [UMSocialData defaultData].extConfig.qqData.url = url;
+        [[UMSocialDataService defaultDataService] postSNSWithTypes:@[PlatformName] content:text image:image location:nil urlResource:nil presentedController:viewController completion:^(UMSocialResponseEntity* response) {
+            if (response.responseCode == UMSResponseCodeSuccess) {
+            }
+        }];
+    }
+}
+
+@end
+
+
+
+
+
+
+
+
+

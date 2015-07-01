@@ -10,4 +10,6 @@
 
 @interface AppDelegate (Share)
 
+- (void)registerShareAction;
+
 @end

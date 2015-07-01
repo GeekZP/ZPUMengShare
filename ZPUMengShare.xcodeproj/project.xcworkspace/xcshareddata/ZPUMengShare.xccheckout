@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>31E5463A-1BD5-4CA4-ABE0-4A3E04D9E508</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZPUMengShare</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A0B7350A9283AAB1AE25BBEE7195CFDF9EC5D1D2</key>
+		<string>https://github.com/GeekZP/ZPUMengShare.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZPUMengShare.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A0B7350A9283AAB1AE25BBEE7195CFDF9EC5D1D2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/GeekZP/ZPUMengShare.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A0B7350A9283AAB1AE25BBEE7195CFDF9EC5D1D2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A0B7350A9283AAB1AE25BBEE7195CFDF9EC5D1D2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZPUMengShare</string>
+		</dict>
+	</array>
+</dict>
+</plist>
